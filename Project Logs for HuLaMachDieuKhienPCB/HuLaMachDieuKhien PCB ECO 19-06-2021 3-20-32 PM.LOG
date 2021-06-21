@@ -1,0 +1,22 @@
+Change Component Designator: OldDesignator=D? NewDesignator=D8
+Change Component Designator: OldDesignator=LED? NewDesignator=LED6
+Change Component Designator: OldDesignator=OUT? NewDesignator=OUT5
+Change Component Designator: OldDesignator=Q? NewDesignator=Q7
+Change Component Designator: OldDesignator=R? NewDesignator=R20
+Change Component Designator: OldDesignator=R? NewDesignator=R21
+Change Component Designator: OldDesignator=R? NewDesignator=R23
+Change Component Designator: OldDesignator=RL? NewDesignator=RL6
+Change Component Designator: OldDesignator=U? NewDesignator=U7
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD8_1
+Change Net Name : Old Net Name=NetLED?_1 New Net Name=NetLED6_1
+Change Net Name : Old Net Name=NetOUT?_1 New Net Name=NetOUT5_1
+Change Net Name : Old Net Name=NetOUT?_2 New Net Name=NetOUT5_2
+Change Net Name : Old Net Name=NetQ?_3 New Net Name=NetQ7_3
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR23_1
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR20_2
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component P2 UART
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component P3 SHOW_NGU?N
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component P4 Khí Ga
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component P5 DHT11
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component R21 1K
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component R23 4K7

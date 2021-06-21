@@ -1,0 +1,29 @@
+Added Component: Designator=C4(CAPNTO2.54-3.05x1.78A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "D:\Dropbox\Datasheets\Passive Components\Capacitors\AVX Disc Ceramic Capacitors.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "0.003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "C103"; VariantName = "[No Variations]"
+Added Component: Designator=R24(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=Reset(Header Duc Thang 2P 2.54)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH001283"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Header 2P XH2.54-2P Ð?c Th?ng"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=3V3 Pin=R24-2
+Added Pin To Net: NetName=GND Pin=Reset-1
+Added Pin To Net: NetName=RST Pin=C4-1
+Added Pin To Net: NetName=RST Pin=M1-13
+Added Pin To Net: NetName=RST Pin=R24-1
+Added Pin To Net: NetName=RST Pin=Reset-2
+Added Net: Name=RST
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component C4 5AK220KABAA
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component R24 1K5
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component Reset 2.54-2p
+Added Room: Name=HuLaMachDieuKhienSCH

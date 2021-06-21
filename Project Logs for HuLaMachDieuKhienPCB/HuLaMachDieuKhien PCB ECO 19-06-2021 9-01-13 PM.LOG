@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=M1-8
+Change Component Designator: OldDesignator=DHT NewDesignator=P5
+Change Component Designator: OldDesignator=Khi Ga NewDesignator=P4
+Change Component Designator: OldDesignator=Nguon NewDesignator=P3
+Added Room: Name=HuLaMachDieuKhienSCH

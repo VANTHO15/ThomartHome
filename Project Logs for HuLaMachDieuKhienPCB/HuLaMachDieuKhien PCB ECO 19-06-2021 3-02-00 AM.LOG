@@ -1,0 +1,194 @@
+Added Component: Designator=C?(tu hoa 4mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH006855"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? Hóa 10uF 16V"; VariantName = "[No Variations]"
+Added Component: Designator=C?(tu hoa 5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH008417"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? Hóa 100uF 16V 5x11MM"; VariantName = "[No Variations]"
+Added Component: Designator=C?(tu hoa 6.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH006862"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? Hóa 100uF 35V"; VariantName = "[No Variations]"
+Added Component: Designator=D?(D5A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1N5408"; VariantName = "[No Variations]"
+Added Component: Designator=D?(DIODE_DO214AC_SMA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CompanyID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "SS34"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PinCount"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Solder"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "SS34"; VariantName = "[No Variations]"
+Added Component: Designator=F?(FUSE_BOX)
+Add component. Clean all parameters for all variants
+Added Component: Designator=JDC(DC-IN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Jac DC"; VariantName = "[No Variations]"
+Added Component: Designator=LED?(LED-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=LED?(LED-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=MIC?(Mic5V)
+Add component. Clean all parameters for all variants
+Added Component: Designator=MIC?(Mic5V)
+Add component. Clean all parameters for all variants
+Added Component: Designator=MIC?(Mic5V)
+Add component. Clean all parameters for all variants
+Added Component: Designator=MIC?(Mic5V)
+Add component. Clean all parameters for all variants
+Added Component: Designator=MIC?(Mic5V)
+Add component. Clean all parameters for all variants
+Added Component: Designator=OUT?(HED2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Class"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Header 2"; VariantName = "[No Variations]"
+Added Component: Designator=P?(Medium - Header 3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CompanyID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR_URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Solder"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P?(Medium - Header 2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CompanyID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR_URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Solder"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q?(QTO-92)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "C2383"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "C1815"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=RL?(RL_10A_5V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "Relay SPDT, 10A, 24V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Relay SPDT, 10A, 12V"; VariantName = "[No Variations]"
+Added Component: Designator=U?(DIP4/W0.3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "PC817"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V' Pin=C?-1
+Added Pin To Net: NetName=5V' Pin=C?-1
+Added Pin To Net: NetName=5V' Pin=R?-1
+Added Pin To Net: NetName=5V' Pin=R?-2
+Added Net: Name=5V'
+Added Pin To Net: NetName=5V Pin=D?-2
+Added Pin To Net: NetName=5V Pin=LED?-1
+Added Pin To Net: NetName=5V Pin=RL?-5
+Added Net: Name=5V
+Added Pin To Net: NetName=12V Pin=C?-1
+Added Pin To Net: NetName=12V Pin=D?-2
+Added Net: Name=12V
+Added Pin To Net: NetName=GND Pin=Q?-1
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Net: Name=GND
+Added Pin To Net: NetName=IN1 Pin=R?-1
+Added Net: Name=IN1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=JDC-2
+Added Pin To Net: NetName=NetC?_2 Pin=LED?-2
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=F?-2
+Added Net: Name=NetD?_1
+Added Pin To Net: NetName=NetF?_1 Pin=F?-1
+Added Pin To Net: NetName=NetF?_1 Pin=P?-1
+Added Net: Name=NetF?_1
+Added Pin To Net: NetName=NetJDC_1 Pin=JDC-1
+Added Pin To Net: NetName=NetJDC_1 Pin=P?-2
+Added Net: Name=NetJDC_1
+Added Pin To Net: NetName=NetLED?_1 Pin=LED?-1
+Added Pin To Net: NetName=NetLED?_1 Pin=R?-2
+Added Net: Name=NetLED?_1
+Added Pin To Net: NetName=NetLED?_2 Pin=LED?-2
+Added Pin To Net: NetName=NetLED?_2 Pin=R?-1
+Added Pin To Net: NetName=NetLED?_2 Pin=U?-4
+Added Net: Name=NetLED?_2
+Added Pin To Net: NetName=NetOUT?_1 Pin=OUT?-1
+Added Pin To Net: NetName=NetOUT?_1 Pin=RL?-1
+Added Net: Name=NetOUT?_1
+Added Pin To Net: NetName=NetOUT?_2 Pin=OUT?-2
+Added Pin To Net: NetName=NetOUT?_2 Pin=RL?-3
+Added Net: Name=NetOUT?_2
+Added Pin To Net: NetName=NetQ?_3 Pin=Q?-3
+Added Pin To Net: NetName=NetQ?_3 Pin=R?-2
+Added Net: Name=NetQ?_3
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-2
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=U?-1
+Added Net: Name=NetR?_2
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component C? 10uF-16V
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component C? 100nF-16V
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component C? 100uF-35V
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component D? 1N5408
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component D? SS34
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component F? Fuse
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component JDC Jac DC
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component LED? LED
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component LED? LED
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component MIC? U?
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component MIC? U?
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component MIC? U?
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component MIC? U?
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component MIC? U?
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component OUT? Header 2_1
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component P? Header 3 - M
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component P? Công T?c
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component Q? C1815
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component R? 1k
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component R? 1K
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component R? 4K7
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component R? 1k
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component R? 1K5
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component R? 4K7
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component RL? Relay 5V/10A
+Added Member To Class: ClassName=HuLaMachDieuKhienSCH Member=Component U? PC817

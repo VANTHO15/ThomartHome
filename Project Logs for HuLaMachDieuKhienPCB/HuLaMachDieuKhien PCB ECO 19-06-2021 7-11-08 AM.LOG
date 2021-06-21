@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=5V Pin=D8-2
+Removed Pin From Net: NetName=5V Pin=LED6-2
+Removed Pin From Net: NetName=GND Pin=Q7-1
+Removed Pin From Net: NetName=5V Pin=RL6-5
+Removed Pin From Net: NetName=GND Pin=U7-2
+Removed Member From Class: ClassName=HuLaMachDieuKhienSCH Member=D8
+Removed Member From Class: ClassName=HuLaMachDieuKhienSCH Member=LED6
+Removed Member From Class: ClassName=HuLaMachDieuKhienSCH Member=OUT5
+Removed Member From Class: ClassName=HuLaMachDieuKhienSCH Member=Q7
+Removed Member From Class: ClassName=HuLaMachDieuKhienSCH Member=R20
+Removed Member From Class: ClassName=HuLaMachDieuKhienSCH Member=R21
+Removed Member From Class: ClassName=HuLaMachDieuKhienSCH Member=R23
+Removed Member From Class: ClassName=HuLaMachDieuKhienSCH Member=RL6
+Removed Member From Class: ClassName=HuLaMachDieuKhienSCH Member=U7
+Change Component Designator: OldDesignator=CUA NewDesignator=C?a
+Change Net Color : Old Net Color=RGB(219, 51, 129) New Net Color=Default
+Added Room: Name=HuLaMachDieuKhienSCH
