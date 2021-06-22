@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "808924647669",
+    "firebase_url": "https://vanthosmarthome-default-rtdb.firebaseio.com",
+    "project_id": "vanthosmarthome",
+    "storage_bucket": "vanthosmarthome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808924647669:android:f68c5e7521f825b7bc75bc",
+        "android_client_info": {
+          "package_name": "com.nguyenvantho.vanthosmarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808924647669-ps1ue1bdls6se1hk0r6rothakcehsrhi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nguyenvantho.vanthosmarthome",
+            "certificate_hash": "d56f8bb3951fe05b661cddc48ceb2ccf7291a5db"
+          }
+        },
+        {
+          "client_id": "808924647669-9ii162ugfkmpeo8c23aohadvvakln1g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGa0LKUEai_0rA9CYQTvrOLROdo9lPolI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808924647669-9ii162ugfkmpeo8c23aohadvvakln1g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
