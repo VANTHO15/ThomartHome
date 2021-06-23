@@ -4,8 +4,8 @@
 
 #define FIREBASE_HOST "vanthosmarthome-default-rtdb.firebaseio.com"
 #define FIREBASE_AUTH "POKdg7lMHmPJekr89kZcyUSDLkUstHF1dkp6Mcx2"
-#define WIFI_SSID "Van Tho 15"
-#define WIFI_PASSWORD "vannhucu"
+#define WIFI_SSID "DuNgrobo"
+#define WIFI_PASSWORD "Hoianhdauphong"
 
 #define SHOWPin D0
 #define DenChinhPin D1
@@ -15,19 +15,25 @@
 #define Quat2Pin D5
 #define CoiPin D6
 #define CuaPin D7
-#define DHTPin D8
+
 #define KHIGAPin A0
+#include "DHT.h"
+#define DHTPIN D8
+#define DHTTYPE DHT11
+DHT dht(DHTPIN, DHTTYPE);
+
 
 FirebaseData firebaseData;
 String path = "/";
 FirebaseJson json;
-long long last = 0;
+long long last = 0, timerCua = 0;
+int a=1,b=1;
 
 String Cua = "OFF", DenChinh = "OFF", DenHoc = "OFF", DenNgu = "OFF", Quat1 = "OFF", Quat2 = "OFF";
-String KhiGa = "45", NhietDo = "28", DoAm="30";
+String KhiGa = "45", NhietDo = "28", DoAm = "30";
 
 void ReadDataToFirebase();
-void WriteDataToFirebase(String NhietDo,String DoAm, String KhiGa);
+void WriteDataToFirebase(String NhietDo, String DoAm, String KhiGa);
 void HandleRelay();
 
 void setup()
@@ -69,63 +75,90 @@ void setup()
     Serial.println();
   }
   last = millis();
+
+  dht.begin();
+
 }
 
 void loop()
 {
+  int d = dht.readHumidity();
+  int t = dht.readTemperature();
+  int k = analogRead(KHIGAPin) / 10.0 - 20;
+  if (k > 65) digitalWrite(CoiPin, 1);
+  else digitalWrite(CoiPin, 0);
+  NhietDo = String(t);
+  DoAm = String(d);
+  KhiGa = String(k);
+
   digitalWrite(SHOWPin, !digitalRead(SHOWPin));
   WriteDataToFirebase( NhietDo , DoAm,  KhiGa);
   ReadDataToFirebase();
   HandleRelay();
-  Serial.println("Cua "+Cua+ "DenChinh "+ DenChinh+ "DenHoc "+ DenHoc+ "DenNgu "+ DenNgu+ "Quat1 "+ Quat1+ "Quat2 "+ Quat2);
-  Serial.println("NhietDO " +NhietDo+ " DoAm " + DoAm + " KhiGa " + KhiGa);
-  
+  Serial.println("Cua " + Cua + "DenChinh " + DenChinh + "DenHoc " + DenHoc + "DenNgu " + DenNgu + "Quat1 " + Quat1 + "Quat2 " + Quat2);
+  Serial.println("NhietDO " + NhietDo + " DoAm " + DoAm + " KhiGa " + KhiGa);
+
 }
 void HandleRelay()
 {
-  if(Cua=="ON")
+  if (Cua == "ON")
   {
-     digitalWrite(CuaPin, 1);
+    if(a==0)
+    {
+      a=1;
+      timerCua=millis();
+    }
+    if(millis()-timerCua > 8000)
+    {
+      digitalWrite(CuaPin, 0);
+    }
+    else
+    {
+       digitalWrite(CuaPin, 1);
+    }
+   
   }
   else
   {
     digitalWrite(CuaPin, 0);
+    a=0;
   }
-  if(DenChinh=="ON")
+
+  if (DenChinh == "ON")
   {
-     digitalWrite(DenChinhPin, 1);
+    digitalWrite(DenChinhPin, 1);
   }
   else
   {
     digitalWrite(DenChinhPin, 0);
   }
-  if(DenHoc=="ON")
+  if (DenHoc == "ON")
   {
-     digitalWrite(DenHocPin, 1);
+    digitalWrite(DenHocPin, 1);
   }
   else
   {
     digitalWrite(DenHocPin, 0);
   }
-  if(DenNgu=="ON")
+  if (DenNgu == "ON")
   {
-     digitalWrite(DenNguPin, 1);
+    digitalWrite(DenNguPin, 1);
   }
   else
   {
     digitalWrite(DenNguPin, 0);
   }
-   if(Quat1=="ON")
+  if (Quat1 == "ON")
   {
-     digitalWrite(Quat1Pin, 1);
+    digitalWrite(Quat1Pin, 1);
   }
   else
   {
     digitalWrite(Quat1Pin, 0);
   }
-   if(Quat2=="ON")
+  if (Quat2 == "ON")
   {
-     digitalWrite(Quat2Pin, 1);
+    digitalWrite(Quat2Pin, 1);
   }
   else
   {
@@ -159,16 +192,16 @@ void ReadDataToFirebase()
     Quat2 = firebaseData.stringData();
   }
 }
-void WriteDataToFirebase(String nhietdo,String doam, String khiga)
+void WriteDataToFirebase(String nhietdo, String doam, String khiga)
 {
   if (millis() - last > 500)
   {
     Firebase.setString(firebaseData, path + "/KhiGa", khiga);
     Firebase.setString(firebaseData, path + "/NhietDo", nhietdo);
     Firebase.setString(firebaseData, path + "/DoAm", doam);
-    NhietDo = String(random(15, 45));
-    KhiGa = String(random(30, 90));
-    DoAm = String(random(10, 80));
+    //    NhietDo = String(random(15, 45));
+    //    KhiGa = String(random(30, 90));
+    //    DoAm = String(random(10, 80));
     last = millis();
   }
 }
